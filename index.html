@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animation Element</title>
+  </head>
+  <body>
+    <header>
+      <h1>Animations</h1>
+    </header>
+    <section id="circle-side" class="animation-wrapper">
+      <h2>Circle Side</h2>
+      <animation-element width="640" height="480" fps="16" sprites-count="16">
+        <img src="./public/CircleSide.png" alt="">
+      </animation-element>
+    </section>
+
+    <section id="pendulum" class="animation-wrapper">
+      <h2>Pendulum</h2>
+      <animation-element width="640" height="480" fps="12" sprites-count="20">
+        <img src="./public/drawn.png" alt="">
+      </animation-element>
+    </section>
+
+    <section class="animation-wrapper">
+      <h2>Planet</h2>
+      <animation-element width="640" height="640" fps="12" sprites-count="16">
+        <img src="./public/planet.png" alt="">
+      </animation-element>
+    </section>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
